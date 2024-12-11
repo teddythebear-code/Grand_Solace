@@ -1,0 +1,111 @@
+/*  the stylesheet is for index.html(the Grand Solace Hotel)home page
+this is importing the 3 fonts( Playwrite Magyarország , Open Sans , Roboto ) for googlefont.com to the css stylesheet 👇👇👇 */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+HU:wght@100..400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root{
+    /* ALL THE COLOR FOR THE PROJECT 
+    this are all the color that will be use in the Grand Solace Hotel project */
+    
+   --Davy_gray:#494545;
+   --Syracuse_red_Orange:#CC4F1D;
+   --Sliver:#C3BBB0;
+   --van_Dyke:#3D3632;
+   --Licorice:#1D1614;
+   --Night:#111010;
+   --Platinum:#E9E7E5;
+   --Black_bean:#391A11;
+   --Smoky_black:#0D090A;
+   --Dim_gray:#706862;
+   --whitesmoke:#f5f5f5;
+
+   /* ALL the FONT FOR THE PROJECT
+   the fonts we import for googlefont.com*/
+   --font_Playwrite_HU:"Playwrite HU", cursive;
+   --font_Open_Sans:"Open Sans", sans-serif;
+   --font_Roboto: "Roboto", sans-serif;
+}
+
+/* CSS all RESIT */
+
+  
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  img{
+    display: block;
+  }
+
+  body {
+    background-color: var(--Night);
+    color: var(--whitesmoke);
+  }
+  
+  h1, h2, h3 {
+    margin-top: 0;
+    font-weight: 700;
+    line-height: 1.1;
+  }
+  
+  p {
+    margin-top: 0;
+  }
+  
+  a, a:active, a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+
+  /* ALL Mobile devices */
+
+@media screen and (max-width: 480px) {
+
+    body{
+   background-color: rgb(255, 0, 0);
+   }
+   }
+   
+   /* ALL iPads, Tablets */
+   
+   @media screen and (min-width: 481px) and (max-width: 768px) {
+       
+       body{
+           background-color: rgb(255, 208, 0);
+       }
+       
+   }
+   
+   /* ALL Small screens, laptops */
+   
+   @media screen and (min-width: 769px) and (max-width: 1024px) {
+       
+       body{
+           background-color: rgb(34, 255, 0);
+       }
+       
+   }
+   
+   /* ALL Desktops, large screens */
+   
+   @media screen and (min-width: 1025px) and (max-width: 1200px) {
+       
+       body{
+           background-color: rgb(0, 170, 255);
+       }
+       
+   }
+   
+   /* ALL Extra large screens, TV */
+   
+   @media screen and (min-width: 1201px) {
+       
+       body{
+           background-color: rgb(183, 0, 255);
+       }
+       
+   }
